@@ -79,6 +79,9 @@ public class ThingStories extends JUnitStories {
 
     @Override
     public List<String> storyPaths() {
+        // Runs all tests
         return new StoryFinder().findPaths(codeLocationFromClass(this.getClass()), "**/*.story", "**/excluded*.story");
+        // Runs selected tests
+        // return new StoryFinder().findPaths(codeLocationFromClass(this.getClass()), "**/*Wrong*.story", "**/excluded*.story");
     }
 }
