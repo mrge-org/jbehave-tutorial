@@ -8,7 +8,7 @@
   <name>JBehave Stories</name>
 
   <properties>
-    <jbehave.core.version>5.0-SNAPSHOT</jbehave.core.version>
+    <jbehave.core.version>5.1.1</jbehave.core.version>
     <jbehave.site.version>3.4.1</jbehave.site.version>
     <embeddables>**/*Stories.java</embeddables>
   </properties>
